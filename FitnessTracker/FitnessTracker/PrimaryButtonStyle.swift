@@ -35,3 +35,6 @@ struct PrimaryButtonStyle_Previews: PreviewProvider{
         }.buttonStyle(PrimaryButtonStyle())
     }
 }
+extension Color {
+    static let darkPrimaryButton = Color(red:255/255, green: 50/255, blue:50/255, opacity: 0.7)
+}
