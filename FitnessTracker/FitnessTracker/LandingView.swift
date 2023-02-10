@@ -30,6 +30,7 @@ struct LandingView: View {
                     }
                     
                 }.padding(.horizontal,15)
+                    .padding(.vertical,15)
                 .buttonStyle(PrimaryButtonStyle())
 
             }.frame(
