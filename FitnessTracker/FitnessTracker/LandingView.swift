@@ -36,10 +36,11 @@ struct LandingView: View {
             }.frame(
                 maxWidth: .infinity,
                     maxHeight: .infinity)
-            .background(Image("coverPhoto").resizable().aspectRatio(
-                contentMode:.fill)
+            .background(Image("coverPhoto")
+                .resizable().aspectRatio(
+                contentMode:.fill).overlay(Color.black.opacity(0.4))
                         
-            ).overlay(Color.black.opacity(0.4))
+            )
             .frame(width: proxy.size.width)
             .edgesIgnoringSafeArea(.all)
         }
